@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:ital,wght@0,500;0,700;1,500;1,600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #341f97;
+}
+
+.welcom-text{
+    
+    width: 400px;
+
+}
+.welcome-form input,
+.welcome-form button{
+    display: block;
+    width: 100%;
+}
+.welcome-form input{
+    margin-bottom: 15px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px soild #fff;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+}
+.welcome-form button{
+    font-size: 22px;
+    padding: 20px 0;
+    border: none;
+    background-color: #fff;
+    color: #341f97;
+    border-radius: 100px;
+    transition: 0.4s all;
+}
+.welcome-form button{
+transform: translate(-5px);
+cursor: pointer;
+}
+
+.card-body.card-text,p:hover{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+.card-body.card-text,p:active{
+    background-color:green!important;
+    color: white;
+}
+.active{
+    background-color: #341f97;
+    color: white!important;
+}
